@@ -1,0 +1,17 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "build-your-own-teams-client-with-react": {
+      "appLocation": ".",
+      "apiLocation": "api",
+      "outputLocation": "build",
+      "apiLanguage": "dotnetisolated",
+      "apiVersion": "6.0",
+      "appBuildCommand": "npm run build",
+      "apiBuildCommand": "dotnet publish -c Release",
+      "run": "npm start",
+      "appDevserverUrl": "http://localhost:3000",
+      "apiDevserverUrl": "http://localhost:7071"
+    }
+  }
+}
